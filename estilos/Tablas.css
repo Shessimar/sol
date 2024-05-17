@@ -1,0 +1,144 @@
+body {
+    background-image: url('clint-patterson-dYEuFB8KQJk-unsplash.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+}
+.contenedor img {
+    border-radius: 10%;
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+    height: auto;
+}
+header {
+    text-align: center;
+    background-color: #de1b9a;
+    padding: 20px 0;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h1 {
+    color: rgb(249, 251, 250);
+    text-align: center;
+}
+h2{
+    color:hsl(0, 100%, 3%);
+}
+h3{
+    color: rgb(1, 0, 0);
+}
+p {
+    text-align: justify;
+}
+ul {
+    margin-top: 10px;
+}
+li{
+  color: rgb(5, 0, 0);
+}
+ul li {
+    color: rgb(9, 0, 0);
+    font-family: Franklin Gothic Mediu;
+    margin-bottom: 5px;
+}
+/*Colores de Marca*/
+.fa-facebook {
+    background:#18dcf2;
+} 
+.fa-instagram {
+    background: #c32aa3;
+}
+.fa-whatsapp{
+    background: #25d359;
+}
+
+/*Agregar estilos adicionales a iconos*/
+.redes {
+    display: flex;
+}
+.redes i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes a {
+    text-decoration: none;
+}
+.redes i:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+}
+table th{
+    width: 10em;
+}
+tr:nth-of-type(1) > th{
+    background-color: #375623;
+}
+tr:nth-of-type(2) >th,
+tr:nth-of-type(3) >th,
+tr:nth-of-type(4) >th,
+tr:nth-of-type(5) >th,
+tr:nth-of-type(6) >th,
+tr:nth-of-type(7) >th,
+tr:nth-of-type(8) >th,
+tr:nth-of-type(9) >th {
+ background-color: darkblue;
+}
+table{
+    color: white;
+    border-collapse: collapse;
+}
+.gestion{
+    background-color: #F4B084;
+}
+.herramientas{
+    background-color: #A9D08E;
+}
+.animacion{
+
+    background-color: #8b8b07;
+}
+.comportamiento{
+    color: white;
+    background-color: #375623;
+}
+.org{
+    color:white;
+    background-color: #002060;
+}
+.gra{
+    background-color: #00B0F0;
+}
+.empresa{
+    color:white;
+    background-color: #833C0C;
+}
+.nd{
+    background-color: white;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
